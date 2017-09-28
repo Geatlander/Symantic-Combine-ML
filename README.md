@@ -11,7 +11,7 @@ An example of this would be feeding in a text file of French text and one of Eng
 a combination of the two languages, maybe something like:
 'Il cannote pas fair hese travael.'
 
-In this experiment, one text file that contained 'Le Comte de Monte Cristo' by Dumas was used, and another containing various English works. 
+In this experiment, one text file that contained 'Le Comte de Monte Cristo' by Dumas was used, and another containing various English works. Let it be noted that the two files were decently sized and were relatively uniform in size.
 In an attempt to produce that type of text, three different models were tested with various results. The first one was an LSTM Recurrent Neural Network, renowned for being able to extract features from large samples of text (http://karpathy.github.io/2015/05/21/rnn-effectiveness/). Skeleton code from this post: https://chunml.github.io/ChunML.github.io/project/Creating-Text-Generator-Using-Recurrent-Neural-Network/ was used. Also, here is this guy's github repo: https://github.com/ChunML/text-generator.
 
 The LSTM design referenced is proven to work effectively in text generation. When trained on some of Tolkien's works, the below excerpt was outputted:
