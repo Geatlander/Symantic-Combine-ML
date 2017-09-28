@@ -74,3 +74,15 @@ It was just like what the input was- a line of one language followed by a line o
 
 As far as concluding that this is impossible, it may well be possible.
 All that is known now is that after adjusting multiple hyperparameters to even extreme limits, there is little to no improvement and no promise that there will be with an LSTM network- that's just not how they work. Perhaps there is another model out there better suited for this, but in the meantime the Markov model remains the best choice for this end. 
+
+
+
+--Note: the source files for the models are as follows:
+Markov- markov.py
+First LSTM attempt by splitting text- morphgen.py
+Second LSTM attempt by concatenating text- concatgen.py
+
+
+
+
+
