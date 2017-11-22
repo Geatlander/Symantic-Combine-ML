@@ -1,4 +1,10 @@
 # Symantic-Combine-ML
+
+Dependencies:
+Before running, make sure that keras and numpy are installed.
+----------------------------------------------------------------------------------------------------------------------------
+
+
 A short experiment in machine learning to compare how well different models could combine symantic features of inputs.
 
 The hypothesis of this experiment was that, given two textual inputs which contained different features,
