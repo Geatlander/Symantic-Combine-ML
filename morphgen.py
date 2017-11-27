@@ -103,7 +103,7 @@ else:
     model.add(Lambda(lambda x: x / 10))
     model.add(Activation('softmax'))
     #Low learning rate set, also to allow less confident learning by the network.
-    rms = optimizers.RMSprop(lr=0.00005)
+    rms = optimizers.RMSprop(lr=0.01)
     model.compile(loss="categorical_crossentropy", optimizer=rms)
 
 
